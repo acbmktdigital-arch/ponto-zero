@@ -1,6 +1,6 @@
 import React from 'react';
 import { COURSE_INFO, CHECKOUT_URL } from '../data/courseData';
-import { ArrowRight, ShieldCheck, Sparkles, Video, Users } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Sparkles, Video, Users, CalendarDays } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -49,6 +49,14 @@ export const Hero: React.FC = () => {
           <p className="text-base sm:text-lg md:text-xl text-[#cbd0dc] font-normal leading-relaxed mb-6 max-w-2xl">
             {COURSE_INFO.headline}
           </p>
+
+          {/* Live schedule */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#5B24E8]/15 border border-[#5B24E8]/50 mb-5">
+            <CalendarDays className="w-4 h-4 text-[#F5CE00] shrink-0" />
+            <span className="text-xs sm:text-sm font-semibold text-[#F5F2F8]">
+              {COURSE_INFO.scheduleShort}
+            </span>
+          </div>
 
           {/* CTA Primary Button */}
           <div className="flex items-center justify-center w-full sm:w-auto">

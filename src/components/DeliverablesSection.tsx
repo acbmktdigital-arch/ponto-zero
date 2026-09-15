@@ -39,7 +39,7 @@ export const DeliverablesSection: React.FC = () => {
             </div>
 
             <p className="text-sm text-[#a8adbd] leading-relaxed">
-              Encontros ao vivo com a Moana. A gravação fica disponível depois, para rever quantas vezes precisar.
+              {COURSE_INFO.scheduleLong} A gravação fica disponível depois, para rever quantas vezes precisar.
             </p>
 
             <ul className="mt-4 space-y-2 text-xs text-[#8c92a2]">

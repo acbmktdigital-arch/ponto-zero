@@ -57,7 +57,7 @@ export const PricingSection: React.FC = () => {
               <div className="w-5 h-5 rounded-full bg-[#e6af5d]/20 text-[#e6af5d] flex items-center justify-center flex-shrink-0">
                 <Check className="w-3.5 h-3.5" />
               </div>
-              <span><strong>6 aulas ao vivo com a Moana</strong> (gravação disponível depois)</span>
+              <span><strong>6 aulas ao vivo com a Moana</strong> — terças, 19h, a partir de 20/10 (gravação depois)</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-5 h-5 rounded-full bg-[#e6af5d]/20 text-[#e6af5d] flex items-center justify-center flex-shrink-0">

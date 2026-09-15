@@ -17,6 +17,11 @@ export const COURSE_INFO = {
   instructor: 'Moana Grandinetti',
   institution: 'HiperConsciência Escola Iniciática',
   quote: 'Vamos ser felizes, nem que seja de pirraça.',
+  // Agenda das aulas ao vivo. 20/10/2026 cai numa terça; as demais seguem
+  // semanalmente no mesmo dia e horário.
+  startDate: '20 de outubro',
+  scheduleShort: 'Começa 20 de outubro · terças, 19h',
+  scheduleLong: 'Seis terças-feiras às 19h (horário de Brasília), a partir de 20 de outubro.',
 };
 
 export const ABOUT_PILLARS = [
@@ -128,8 +133,16 @@ export const DELIVERABLES = [
 
 export const FAQS: FaqItem[] = [
   {
+    question: 'Quando são as aulas?',
+    answer: 'A primeira é em 20 de outubro, uma terça-feira, às 19h (horário de Brasília). As outras cinco seguem nas terças seguintes, sempre no mesmo horário: 27 de outubro, 3, 10, 17 e 24 de novembro.',
+  },
+  {
     question: 'As aulas são ao vivo?',
     answer: 'Sim. As 6 aulas são ao vivo com a Moana. Se você não puder estar presente, ou quiser rever, a gravação de cada aula fica disponível depois.',
+  },
+  {
+    question: 'E se eu não puder assistir ao vivo?',
+    answer: 'Sem problema. A gravação de cada aula fica disponível para você assistir quando puder, e você continua no grupo de suporte para enviar as suas dúvidas.',
   },
   {
     question: 'Como eu tiro as minhas dúvidas?',
