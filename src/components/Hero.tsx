@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="flex items-center gap-1.5">
               <Users className="w-3.5 h-3.5 text-[#F5CE00]" />
-              <span>Suporte direto com a Moana</span>
+              <span>Grupo de suporte exclusivo</span>
             </div>
             <div className="flex items-center gap-1.5">
               <ShieldCheck className="w-3.5 h-3.5 text-[#F5CE00]" />

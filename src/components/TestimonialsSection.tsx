@@ -72,7 +72,7 @@ export const TestimonialsSection: React.FC = () => {
               ))}
             </div>
             <p className="text-[#c0c5d4] italic leading-relaxed mb-3">
-              "O acompanhamento da Moana no grupo faz toda a diferença. Não é um curso solto, a gente se sente guiado a cada passo."
+              "O ambiente no grupo de suporte faz toda a diferença. Não é um curso solto, a gente se sente guiado e acolhido a cada passo."
             </p>
             <div className="flex items-center gap-2 pt-2.5 border-t border-[#1a1d2c] text-[#818798]">
               <UserCheck className="w-3.5 h-3.5 text-[#e6af5d]" />

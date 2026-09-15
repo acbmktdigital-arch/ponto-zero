@@ -1,15 +1,13 @@
 import React from 'react';
-import { Gift, Sparkles, Flame, CheckCircle2, Compass, CircleDot } from 'lucide-react';
+import { Gift, Sparkles, ShieldCheck, CheckCircle2, Compass, CircleDot } from 'lucide-react';
 import { CHECKOUT_URL } from '../data/courseData';
 
 export const BonusSection: React.FC = () => {
-  const tantraTopics = [
-    '7 Corpos Sutis',
-    'Chakras & Alinhamento',
-    'Kundalini & Energia Vital',
-    'Meditação & Mantras',
-    'Sexualidade Consciente',
-    'Expansão da Consciência'
+  const chipsTopics = [
+    'Identificação & Limpeza',
+    'Reorganização do Campo',
+    'Liberação de Interferências',
+    'Fortalecimento da Frequência'
   ];
 
   const japamalaTopics = [
@@ -37,14 +35,14 @@ export const BonusSection: React.FC = () => {
             Presentes exclusivos para acelerar sua rota
           </h2>
           <p className="text-xs sm:text-sm text-[#cbd0dc]">
-            Mais de <strong className="text-[#F5CE00]">R$ 1.170,00</strong> em conteúdos e consagrações liberados gratuitamente na sua matrícula.
+            Mais de <strong className="text-[#F5CE00]">R$ 144,00</strong> em conteúdos e consagrações liberados gratuitamente na sua matrícula.
           </p>
         </div>
 
         {/* Bonus Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
           
-          {/* BONUS 1: Tantra Além do Prazer */}
+          {/* BONUS 1: Hiper Remoção de Chips e Implantes */}
           <div className="relative rounded-3xl p-6 sm:p-8 bg-gradient-to-b from-[#141724] via-[#10121b] to-[#0d0f16] border-2 border-[#e6af5d]/40 shadow-2xl shadow-black/80 flex flex-col justify-between overflow-hidden group">
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#F5CE00] to-transparent" />
             
@@ -61,45 +59,44 @@ export const BonusSection: React.FC = () => {
               </div>
 
               {/* Title */}
-              <h3 className="font-cinzel text-xl sm:text-2xl font-bold text-[#F5F2F8] tracking-tight mb-2 group-hover:text-[#fae19c] transition-colors">
-                Tantra Além do Prazer
+              <h3 className="text-xl sm:text-2xl font-bold text-[#F5F2F8] font-sans tracking-tight mb-2 group-hover:text-[#fae19c] transition-colors">
+                Hiper Remoção de Chips e Implantes
               </h3>
 
-              {/* Subtitle */}
+              {/* Hook question */}
               <p className="text-xs sm:text-sm text-[#fae19c] font-medium leading-relaxed mb-3">
-                Uma jornada de <span className="text-[#F5CE00] font-semibold">autoconhecimento, expansão da consciência e conexão</span>.
+                Você já percebeu padrões que se repetem, pensamentos que parecem não ser seus, medos sem explicação ou bloqueios que continuam presentes mesmo após muito trabalho de autoconhecimento?
               </p>
 
               {/* Description */}
+              <p className="text-xs sm:text-sm text-[#cbd0dc] leading-relaxed mb-3">
+                Dentro das pesquisas da Escola, chamamos de <strong className="text-[#F5F2F8]">chips e implantes energéticos</strong> estruturas de informação que podem influenciar comportamentos, crenças, emoções e formas de perceber a realidade, mantendo a consciência presa a determinados padrões.
+              </p>
+
               <p className="text-xs sm:text-sm text-[#cbd0dc] leading-relaxed mb-4">
-                Explore os <strong className="text-[#F5F2F8]">7 corpos sutis, chakras, Kundalini, energia vital, meditação, mantras e sexualidade consciente</strong>, ampliando sua percepção sobre corpo, mente, emoções e espiritualidade.
+                Neste encontro, a Mô conduzirá um trabalho coletivo de <strong className="text-[#F5CE00]">identificação, limpeza e reorganização do campo energético</strong>, com foco na liberação dessas interferências e no fortalecimento da sua própria frequência.
               </p>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-1.5 mb-4">
-                {tantraTopics.map((topic) => (
+                {chipsTopics.map((topic) => (
                   <span
                     key={topic}
                     className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#181a28] border border-[#2d3248] text-[10px] sm:text-[11px] font-medium text-[#c9cedd]"
                   >
-                    <Flame className="w-2.5 h-2.5 text-[#F5CE00]" />
+                    <ShieldCheck className="w-2.5 h-2.5 text-[#F5CE00]" />
                     <span>{topic}</span>
                   </span>
                 ))}
               </div>
-
-              {/* Inspirational note */}
-              <p className="text-[11px] text-[#8e94a6] italic leading-relaxed mb-4 border-l-2 border-[#e6af5d]/40 pl-3">
-                Um conteúdo para aprofundar sua experiência e despertar uma nova percepção sobre si mesmo e a vida.
-              </p>
             </div>
 
             {/* Price Box */}
             <div className="pt-3 border-t border-[#232738] flex items-center justify-between">
               <div>
-                <span className="text-[10px] uppercase tracking-wider text-[#757a8c] block">Valor do bônus</span>
+                <span className="text-[10px] uppercase tracking-wider text-[#757a8c] block">Preço base</span>
                 <span className="text-xs sm:text-sm text-[#717789] line-through font-semibold">
-                  R$ 1.059,00
+                  R$ 33,00
                 </span>
               </div>
               <span className="px-3 py-1 rounded-full bg-gradient-to-r from-[#F5CE00] to-[#e6b800] text-[#12141c] text-[11px] sm:text-xs font-black tracking-wider uppercase shadow-md shadow-[#F5CE00]/20">
@@ -125,7 +122,7 @@ export const BonusSection: React.FC = () => {
               </div>
 
               {/* Title */}
-              <h3 className="font-cinzel text-xl sm:text-2xl font-bold text-[#F5F2F8] tracking-tight mb-2 group-hover:text-[#fae19c] transition-colors">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#F5F2F8] font-sans tracking-tight mb-2 group-hover:text-[#fae19c] transition-colors">
                 Japamala Consagrado na Energia Arcturiana
               </h3>
 

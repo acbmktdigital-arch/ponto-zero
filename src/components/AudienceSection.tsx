@@ -44,7 +44,7 @@ export const AudienceSection: React.FC = () => {
                   {getIcon(item.iconName)}
                 </div>
                 
-                <h3 className="text-base sm:text-lg font-bold text-[#f3f5f8] mb-2 font-cinzel">
+                <h3 className="text-base sm:text-lg font-bold text-[#f3f5f8] mb-2 font-sans">
                   {item.title}
                 </h3>
                 

@@ -26,7 +26,7 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-2xl bg-[#1b1e2c] border border-[#2e3348] flex items-center justify-center text-[#e6af5d] mb-4 group-hover:scale-105 transition-transform">
               <Orbit className="w-5 h-5" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-cinzel mb-2">
+            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-sans tracking-tight mb-2">
               Mudança de Linha do Tempo & Eu Estelar
             </h3>
             <p className="text-[#c7cbd7] text-sm leading-relaxed mb-3">
@@ -42,7 +42,7 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-2xl bg-[#1b1e2c] border border-[#2e3348] flex items-center justify-center text-[#e6af5d] mb-4 group-hover:scale-105 transition-transform">
               <Zap className="w-5 h-5" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-cinzel mb-2">
+            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-sans tracking-tight mb-2">
               A Regra do Jogo & A Matrix
             </h3>
             <p className="text-[#c7cbd7] text-sm leading-relaxed mb-3">
@@ -58,7 +58,7 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-2xl bg-[#1b1e2c] border border-[#2e3348] flex items-center justify-center text-[#e6af5d] mb-4 group-hover:scale-105 transition-transform">
               <RefreshCw className="w-5 h-5" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-cinzel mb-2">
+            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-sans tracking-tight mb-2">
               Repetições
             </h3>
             <p className="text-[#e2e5ee] font-medium text-sm sm:text-base leading-relaxed mb-2">
@@ -74,7 +74,7 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-2xl bg-[#1b1e2c] border border-[#2e3348] flex items-center justify-center text-[#e6af5d] mb-4 group-hover:scale-105 transition-transform">
               <Sparkles className="w-5 h-5" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-cinzel mb-2">
+            <h3 className="text-lg sm:text-xl font-bold text-[#fae19c] font-sans tracking-tight mb-2">
               O Caos Antes do Salto & O Observador
             </h3>
             <p className="text-[#c7cbd7] text-sm leading-relaxed mb-3">

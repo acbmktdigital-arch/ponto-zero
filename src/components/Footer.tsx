@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Brand & Names as requested */}
-        <p className="font-cinzel text-sm sm:text-base font-bold text-[#e6af5d] mb-1.5 tracking-wider">
+        <p className="font-sans text-sm sm:text-base font-bold text-[#e6af5d] mb-1.5 tracking-wide">
           Ponto Zero · {COURSE_INFO.institution} · {COURSE_INFO.instructor}
         </p>
 

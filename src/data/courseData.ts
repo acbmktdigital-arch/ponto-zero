@@ -7,8 +7,9 @@ export const COURSE_INFO = {
   title: 'PONTO ZERO',
   tagline: 'onde tudo é possível',
   headline: 'Seis aulas para entender a regra do jogo da realidade, parar de repetir os mesmos padrões e mudar de linha do tempo a partir do ponto do observador.',
-  priceText: 'R$ 188',
-  priceFormat: '6 aulas ao vivo com gravação + grupo de suporte com a Moana',
+  priceText: '12x de R$ 19,44',
+  cashPriceText: 'R$ 188,00 à vista no Pix',
+  priceFormat: '6 aulas ao vivo com gravação + grupo de suporte exclusivo + 2 bônus inclusos',
   primaryCta: 'Quero recalcular a minha rota',
   secondaryCta: 'Quero entrar no Ponto Zero',
   instructor: 'Moana Grandinetti',
@@ -112,9 +113,9 @@ export const DELIVERABLES = [
     badge: 'Ao vivo + gravação',
   },
   {
-    title: 'Grupo de suporte com a Moana',
-    description: 'Você entra no grupo e a Moana está lá com você, respondendo às suas perguntas.',
-    badge: 'Acompanhamento direto',
+    title: 'Grupo de suporte exclusivo',
+    description: 'Espaço dedicado para tirar dúvidas e acompanhar as orientações da turma.',
+    badge: 'Acompanhamento exclusivo',
   },
   {
     title: 'HiperConsciência Escola Iniciática',
@@ -130,14 +131,10 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Como eu tiro as minhas dúvidas?',
-    answer: 'No grupo de suporte. A Moana fica no grupo junto com os alunos, respondendo às perguntas.',
+    answer: 'No grupo de suporte exclusivo, onde você pode enviar suas dúvidas e acompanhar as respostas.',
   },
   {
     question: 'É para mim?',
     answer: 'É para quem se sente sobrecarregado, para quem está procrastinando e para quem busca autoconhecimento, e quer entender por que as coisas se repetem na própria vida.',
-  },
-  {
-    question: 'Quanto custa?',
-    answer: 'R$ 188.',
   },
 ];

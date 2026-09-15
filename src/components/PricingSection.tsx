@@ -29,16 +29,20 @@ export const PricingSection: React.FC = () => {
           </div>
 
           {/* Pricing Box */}
-          <div className="bg-[#0b0d14] rounded-2xl p-5 sm:p-6 border border-[#212537] text-center max-w-lg mx-auto mb-5">
+          <div className="bg-[#0b0d14] rounded-2xl p-5 sm:p-6 border border-[#212537] text-center max-w-lg mx-auto mb-5 shadow-2xl">
             <div className="text-xs text-[#8c91a3] uppercase tracking-wider mb-1">
-              Investimento Único
-            </div>
-            
-            <div className="font-cinzel text-3xl sm:text-5xl font-bold text-[#fae19c] my-1.5">
-              {COURSE_INFO.priceText}
+              Investimento
             </div>
 
-            <p className="text-xs sm:text-sm text-[#c7cbd7] font-medium mt-1 mb-3">
+            <div className="text-3xl sm:text-5xl font-bold text-[#fae19c] my-1 font-sans tracking-tight">
+              12x <span className="text-xl sm:text-3xl font-semibold text-[#c59b4c]">de</span> R$ 19,44
+            </div>
+
+            <p className="text-xs sm:text-sm text-[#f4f6fa] font-medium mt-1 mb-2">
+              ou <strong className="text-[#fae19c]">{COURSE_INFO.cashPriceText}</strong>
+            </p>
+
+            <p className="text-xs text-[#8c91a3] mb-3">
               {COURSE_INFO.priceFormat}
             </p>
 
@@ -59,13 +63,13 @@ export const PricingSection: React.FC = () => {
               <div className="w-5 h-5 rounded-full bg-[#e6af5d]/20 text-[#e6af5d] flex items-center justify-center flex-shrink-0">
                 <Check className="w-3.5 h-3.5" />
               </div>
-              <span><strong>Grupo de suporte exclusivo</strong> com a Moana Grandinetti</span>
+              <span><strong>Grupo de suporte exclusivo</strong> para tirar dúvidas</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-5 h-5 rounded-full bg-[#e6af5d]/20 text-[#e6af5d] flex items-center justify-center flex-shrink-0">
                 <Check className="w-3.5 h-3.5" />
               </div>
-              <span><strong className="text-[#fae19c]">BÔNUS 1: Tantra Além do Prazer</strong> (de R$ 1.059 por R$ 0)</span>
+              <span><strong className="text-[#fae19c]">BÔNUS 1: Hiper Remoção de Chips e Implantes</strong> (de R$ 33 por R$ 0)</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-5 h-5 rounded-full bg-[#e6af5d]/20 text-[#e6af5d] flex items-center justify-center flex-shrink-0">

@@ -30,7 +30,7 @@ export const DeliverablesSection: React.FC = () => {
             </div>
             
             <div className="flex items-center gap-2 mb-1.5">
-              <h3 className="text-lg sm:text-xl font-bold text-[#f3f5f8] font-cinzel">
+              <h3 className="text-lg sm:text-xl font-bold text-[#f3f5f8] font-sans tracking-tight">
                 6 aulas ao vivo
               </h3>
               <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-[#1e2333] text-[#fae19c] border border-[#31374d]">
@@ -61,22 +61,22 @@ export const DeliverablesSection: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-2 mb-1.5">
-              <h3 className="text-lg sm:text-xl font-bold text-[#f3f5f8] font-cinzel">
+              <h3 className="text-lg sm:text-xl font-bold text-[#f3f5f8] font-sans tracking-tight">
                 Grupo de suporte
               </h3>
               <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-[#1e2333] text-[#fae19c] border border-[#31374d]">
-                Com a Moana
+                Comunidade Exclusiva
               </span>
             </div>
 
             <p className="text-sm text-[#a8adbd] leading-relaxed">
-              Você entra no grupo e a Moana está lá com você, respondendo às suas perguntas.
+              Você entra no grupo de suporte e conta com um espaço dedicado para esclarecer dúvidas e acompanhar as orientações.
             </p>
 
             <ul className="mt-4 space-y-2 text-xs text-[#8c92a2]">
               <li className="flex items-center gap-2">
                 <CheckCircle className="w-3.5 h-3.5 text-[#e6af5d] shrink-0" />
-                <span>Tire dúvidas diretamente com quem conduz a jornada</span>
+                <span>Canal estruturado para esclarecer dúvidas da jornada</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="w-3.5 h-3.5 text-[#e6af5d] shrink-0" />

@@ -49,7 +49,7 @@ export const FaqSection: React.FC = () => {
                   className="w-full p-4 sm:p-5 text-left flex items-center justify-between gap-4 select-none cursor-pointer"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-cinzel text-sm sm:text-base font-bold text-[#fae19c]">
+                  <span className="font-sans text-sm sm:text-base font-bold text-[#fae19c]">
                     {faq.question}
                   </span>
                   <div

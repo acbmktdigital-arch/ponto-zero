@@ -61,7 +61,7 @@ export const CurriculumSection: React.FC = () => {
                           {lesson.focusTag}
                         </span>
                       </div>
-                      <h3 className="text-base sm:text-lg font-bold text-[#f0f2f7] font-cinzel">
+                      <h3 className="text-base sm:text-lg font-bold text-[#f0f2f7] font-sans">
                         {lesson.subtitle}
                       </h3>
                     </div>
