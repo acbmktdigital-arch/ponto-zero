@@ -1,7 +1,7 @@
 import { LessonItem, AudienceItem, FaqItem } from '../types';
 
 // Link do checkout da Hotmart. Todos os botões de compra da página apontam para cá.
-export const CHECKOUT_URL = 'https://pay.hotmart.com/SUBSTITUIR-PELO-LINK-REAL';
+export const CHECKOUT_URL = 'https://pay.hotmart.com/K107603124Y';
 
 export const COURSE_INFO = {
   title: 'PONTO ZERO',
