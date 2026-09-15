@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.04em;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Cosmic subtle radial accents */
+.bg-radial-singularity {
+  background: radial-gradient(circle at 50% 30%, rgba(230, 175, 93, 0.12) 0%, rgba(23, 24, 33, 0.4) 45%, rgba(11, 12, 16, 0.95) 85%);
+}
+
+.bg-radial-subtle {
+  background: radial-gradient(circle at 50% 50%, rgba(212, 163, 89, 0.07) 0%, transparent 70%);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ponto Zero",
+  "description": "Seis aulas para entender a regra do jogo da realidade, parar de repetir os mesmos padrões e mudar de linha do tempo com Moana Grandinetti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
