@@ -1,7 +1,9 @@
 import { LessonItem, AudienceItem, FaqItem } from '../types';
 
 // Link do checkout da Hotmart. Todos os botões de compra da página apontam para cá.
-export const CHECKOUT_URL = 'https://pay.hotmart.com/K107603124Y';
+// O parâmetro ?off= identifica a oferta associada à turma do curso bônus. Sem ele,
+// a venda entra pelo produto genérico e o comprador não recebe o bônus.
+export const CHECKOUT_URL = 'https://pay.hotmart.com/K107603124Y?off=ycn4hlis';
 
 export const COURSE_INFO = {
   title: 'PONTO ZERO',
